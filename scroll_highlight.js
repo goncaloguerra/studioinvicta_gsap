@@ -1,24 +1,4 @@
-<style>
-  .line {
-    position: relative;
-  }
 
-  .line-mask {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #0f0f0f;
-    opacity: 0.95;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-  }
-</style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-<script src="https://unpkg.com/split-type"></script>
-<script>
   // Função para executar a animação
   function createAnimation() {
     $(".line").each(function (index) {
@@ -74,4 +54,4 @@
   // Executar as funções iniciais
   runSplit();
   createAnimation();
-</script>
+
